@@ -23,7 +23,7 @@ func main(){
 		return
 	}
 
-	conn, err := net.Dial("tcp", "118.24.148.138:8088")
+	conn, err := net.Dial("tcp", "ip:8088")
 	if err != nil{
 		fmt.Println("net.Dial err", err)
 		return
